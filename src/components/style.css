@@ -1,0 +1,471 @@
+#container {
+  display: inline-block;
+  margin: 15px;
+  background-color: rgb(252 252 252);
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.create-catalog-heading {
+  font-size: 24px;
+  /* Örneğin, 24 piksel olarak ayarlayabilirsiniz */
+  font-weight: normal;
+  /* Yazıyı normal (normal kalınlıkta) yapar */
+  color: #333;
+  /* Örneğin, gri renkte (#333) yapabilirsiniz */
+}
+
+h5 {
+  font-size: 1em;
+  color: darkslategray;
+}
+
+
+.headerContainer {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.containerbody {
+  background: linear-gradient(to right, #f6b58e, #fff);
+  /* İlk renk (#333) koyu, ikinci renk (#fff) açık renk */
+  width: 100%;
+  width: 600px;
+  background-color: rgb(249 197 151);
+  padding: 25px;
+  border-radius: 20px;
+  margin: 40px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#catalogDetail {
+  background: linear-gradient(to right, #f6b58e, #fff);
+  background-color: rgb(249 197 151);
+  padding: 8px;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#list_container {
+  background: linear-gradient(to right, #f6b58e, #fff);
+  /* İlk renk (#333) koyu, ikinci renk (#fff) açık renk */
+  width: 100%;
+  /* height: 100vh; */
+  width: 600px;
+  display: inline-block;
+  background-color: rgb(249 197 151);
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.multiSelectTable {
+  margin: 17px;
+  background: linear-gradient(to right, #f6b58e, #fff);
+  /* İlk renk (#333) koyu, ikinci renk (#fff) açık renk */
+  width: 100%;
+  /* height: 100vh; */
+  width: 350px;
+  display: inline-block;
+  background-color: rgb(249 197 151);
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.multiSelectBox {
+  margin: 17px;
+  background: linear-gradient(to right, #f6b58e, #fff);
+  /* İlk renk (#333) koyu, ikinci renk (#fff) açık renk */
+  width: 100%;
+  /* height: 100vh; */
+  width: 600px;
+  height: 400px;
+  background-color: rgb(249 197 151);
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.custom-dual-listbox {
+  height: 300px; /* Yükseklik ayarı */
+}
+
+.selectContainer {
+  margin: 17px;
+  background: linear-gradient(to right, #f6b58e, #fff);
+  /* İlk renk (#333) koyu, ikinci renk (#fff) açık renk */
+  width: 100%;
+  /* height: 100vh; */
+  width: 550px;
+  display: inline-block;
+  background-color: rgb(249 197 151);
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.custom-link {
+  display: block;
+  width: 100%;
+}
+
+input.filter {
+  width: 100%;
+  padding: 5px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  margin-bottom: 5px;
+  border-radius: 10px;
+  border: 0 solid rgb(244, 170, 74);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.cataloginput:hover {
+  /* border-color:  rgb(10, 6, 0); */
+}
+
+input:focus {
+  border: transparent;
+  /* veya border: 0; veya border: transparent; */
+  /* Diğer stil ayarları */
+}
+
+.error {
+
+  top: 100%;
+  left: 0;
+  color: rgb(4, 2, 2);
+  font-size: 12px;
+}
+
+.error-icon::before {
+  content: "\26A0";
+  /* Üçgen işareti (örnek bir simge) */
+  margin-right: 4px;
+  /* Simge ile metin arasında bir boşluk bırakır */
+}
+
+button {
+  /* width: 100%; */ 
+  padding: 5px;
+  background-color: rgb(227 105 11);
+  color: aliceblue;
+  display: inline-block;
+  cursor: pointer;
+  margin-top: 7px;
+  border-radius: 30px;
+  padding: 6px 24px;
+  border: 1px solid rgb(244, 170, 74);
+  -webkit-transition-duration: 0.4s;
+  /* Safari */
+  transition-duration: 0.4s;
+
+}
+
+
+#react-select-5-listbox{
+  border-radius: 30px;
+}
+
+button:hover {
+  background-color: rgb(227 105 11);
+  color: white;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  border-radius: 10px;
+
+
+
+}
+
+.list {
+  margin: 15px;
+}
+
+.list>li {
+  padding: 5px;
+  margin-bottom: 3px;
+  justify-content: space-between;
+  display: flex;
+  padding-left: 30px;
+  padding-right: 30px;
+  align-items: center;
+
+}
+
+.list>li:hover {
+  /* background-color: antiquewhite;
+    padding: 5px;
+    margin-bottom: 3px; */
+  outline: medium none;
+  transition: all 0.4s ease 0s;
+  transform: scale(1.05);
+  background: linear-gradient(to left, #f7ab7e75, #ffffffc6);
+  /* z-index:2; */
+
+}
+
+p {
+  text-align: right;
+  margin-right: 20px;
+  color: rgb(71, 76, 71);
+}
+
+.active {
+  color: #464544;
+  text-decoration: underline;}
+a {
+  text-decoration: none;
+  color: #000;
+}
+/* Top header */
+.top-header {
+  background-color: #ffffff; /* Arka plan rengi */
+  color: #fa8e1c; /* Metin rengi */
+  padding: 10px 0; /* Üst ve alt boşluklar */
+}
+
+/* Top nav */
+.top-nav ul {
+  list-style: none; /* Liste işareti gizle */
+  padding: 0; /* Liste içi boşluklar */
+}
+
+.top-nav li {
+  display: inline; /* Liste öğelerini yan yana yerleştir */
+  margin-right: 20px; /* Sağ kenar boşluğu */
+}
+
+/* Nav link */
+.nav-link {
+  color: #343434; /* Bağlantı metni rengi */
+  font-weight: bold; /* Kalın metin stil */
+  transition: all 0.4s ease 0s;
+  font-size: 16px;
+}
+.nav-link:hover {
+  transition: all 0.4s ease 0s;
+  border-radius: 8px;
+  font-size: 18px;
+  text-decoration:underline;
+}
+.active-link {
+  text-decoration:underline;
+}
+
+
+.lds-roller {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+
+.lds-roller div {
+  animation: lds-roller 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  transform-origin: 40px 40px;
+}
+
+.lds-roller div:after {
+  content: " ";
+  display: block;
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #fff;
+  margin: -4px 0 0 -4px;
+}
+
+.lds-roller div:nth-child(1) {
+  animation-delay: -0.036s;
+}
+
+.lds-roller div:nth-child(1):after {
+  top: 63px;
+  left: 63px;
+}
+
+.lds-roller div:nth-child(2) {
+  animation-delay: -0.072s;
+}
+
+.lds-roller div:nth-child(2):after {
+  top: 68px;
+  left: 56px;
+}
+
+.lds-roller div:nth-child(3) {
+  animation-delay: -0.108s;
+}
+
+.lds-roller div:nth-child(3):after {
+  top: 71px;
+  left: 48px;
+}
+
+.lds-roller div:nth-child(4) {
+  animation-delay: -0.144s;
+}
+
+.lds-roller div:nth-child(4):after {
+  top: 72px;
+  left: 40px;
+}
+
+.lds-roller div:nth-child(5) {
+  animation-delay: -0.18s;
+}
+
+.lds-roller div:nth-child(5):after {
+  top: 71px;
+  left: 32px;
+}
+
+.lds-roller div:nth-child(6) {
+  animation-delay: -0.216s;
+}
+
+.lds-roller div:nth-child(6):after {
+  top: 68px;
+  left: 24px;
+}
+
+.lds-roller div:nth-child(7) {
+  animation-delay: -0.252s;
+}
+
+.lds-roller div:nth-child(7):after {
+  top: 63px;
+  left: 17px;
+}
+
+.lds-roller div:nth-child(8) {
+  animation-delay: -0.288s;
+}
+
+.lds-roller div:nth-child(8):after {
+  top: 56px;
+  left: 12px;
+}
+
+@keyframes lds-roller {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+.scroll-container {
+  max-height: 400px;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  /* Firefox için */
+  scrollbar-color: rgba(0, 0, 0, 0.3) rgba(0, 0, 0, 0.1);
+  /* Firefox için */
+}
+
+/* Kaydırma çubuğu stili */
+.scroll-container::-webkit-scrollbar {
+  width: 8px;
+  /* Kaydırma çubuğu genişliği */
+}
+
+.scroll-container::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.3);
+  /* Kaydırma çubuğu rengi */
+  border-radius: 4px;
+  /* Kenar yuvarlatma */
+}
+
+.scroll-container::-webkit-scrollbar-track {
+  background-color: rgba(0, 0, 0, 0.1);
+  /* Kaydırma çubuğu arka plan rengi */
+}
+
+.custom-checkbox-label {
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding-left: 30px;
+  /* Checkbox'ın solundaki boşluk */
+  margin-bottom: 10px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.custom-checkbox-label input[type="checkbox"] {
+  position: absolute;
+  opacity: 0;
+  /* Gerçek checkbox'ı gizle */
+}
+
+.custom-checkbox-label span.checkbox-icon {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 20px;
+  /* Checkbox boyutu */
+  height: 20px;
+  /* Checkbox boyutu */
+  border: 2px solid rgb(227 105 11);
+  /* Turuncu kenarlık */
+  border-radius: 5px;
+  /* Kenar yuvarlatma */
+  background-color: transparent;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.custom-checkbox-label input[type="checkbox"]:checked+span.checkbox-icon::before {
+  content: "\2713";
+  /* Onay işareti Unicode karakteri */
+  display: block;
+  font-size: 14px;
+  /* Onay işareti boyutu */
+  line-height: 1;
+  text-align: center;
+  color: rgb(227 105 11);
+  /* Onay işareti rengi (turuncu) */
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.select-box {
+  width: 200px;
+  width: 75%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f8f8f8;
+  color: #333;
+  font-size: 16px;
+  margin-left: 15px;
+}
+
+/* Seçeneklerin stil */
+.select-box option {
+  background-color: #fff;
+  color: #333;
+  font-size: 16px;
+}
+
+/* Hover stil */
+.select-box:hover {
+  background-color: #eaeaea;
+  border-color: #aaa;
+}
+
